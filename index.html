@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yue Ma</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact-Final">Contact</a>
+            </li>
+
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Yue Ma</h1>
+            <h2>Computer Engineer</h2>
+            <a href="https://drive.google.com/file/d/1MjwzBcIuxdiHgUuo0ic31WorWQmqVmv7/view?usp=sharing" class="btn-rounded-white">View Resume</a><br>
+            <!-- <a href="https://github.com/mohammedjasam" target="_blank"><i class="iconsSocial" aria-hidden="True"></i></a> -->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am an undergraduate computer engineering student in University of Alberta. <br>
+                        I love coding, researching, and traveling.  <br>
+                        Check out my projects on <a href="https://github.com/yueMaHello">GitHub</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="May 2018 – Dec 2018">
+                <h3>City of Edmonton</h3>
+                <h4>Software Developer</h4>
+                <p>
+                    I did data modeling and built web applications for city planning purpose. This gives me a platform to apply my computer science knowledge to help government make better decisions!
+                </p>
+            </div>
+            <div data-date="Jan 2017 – Aug 2017">
+                <h3>Shaw Communications</h3>
+                <h4>Researcher & Developer</h4>
+                <p>
+                    I developed a PNM web application which is used to detect cable network issues before customers are impacted.
+                </p>
+            </div>
+            <div data-date="May 2016 – Aug 2016">
+                <h3>University of Alberta</h3>
+                <h4>Research Intern</h4>
+                <p>
+                    I assisted a research project 'Hierarchical Approach to Data-Driven Change Detection and Diagnosis'. It raised my interest in doing research.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Alberta</h3>
+            <span class="education-date">Sep 2014 - May 2019</span>
+            <h4>Bachelor of Science in Computer Engineering</h4>
+            <p>
+                During these five years, I finished twenty-months internship in three organizations. I enjoyed my busy undergraduate life since I could learn new stuff everyday.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/FeelShot.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Proactive Network Maintenance</h3>
+                        <p>
+                            Developed a cable field fault detection application based on CableLabs’ PNM documentation.
+                            Optimized the signal clustering method using DBSCAN instead of the origin energy comparison method.
+                            Applied mapping features to make technicians easily identify the location of issues.
+                            Conducted hands-on physical experiments to analyze various cable plants’ issues.
+                            Tested the application in real world and it was proved to detect 35% network issues before the users were impacted
+                        </p>
+                        <a href="https://github.com/mohammedjasam/FeelShot">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="https://www.youtube.com/embed/qinVENPA2I8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Flow Cluster Tool</h3>
+                        <p>
+                            Multi-threading weighted K-means was implemented and visualized each iteration's result on the map.
+                        </p>
+                        <a href="https://github.com/yueMaHello/Flow_Cluster_Tool">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="https://www.youtube.com/embed/Ebj_BuEpJ_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Compare Accessibility Application</h3>
+                        <p>
+                            This application is used to analyze transportation accessibility of Edmonton.
+                            Travel accessibility can be represented as how easy it is to travel from one place to others.
+                            The user can choose different combinations of travel modes and purposes to view the corresponding accessibility.
+                        </p>
+                        <a href="https://github.com/yueMaHello/CompareAccessibility">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="https://www.youtube.com/embed/YsE8DWO57fg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Find Your Home Application</h3>
+                        <p>
+                            When a family needs to move to a new city or wants to buy a new house, among thousands of houses, it is difficult to find a satisfied one.
+                            To decide a new accommodation’s location, several factors must be taken into account, such as daily travel time, house price, and house type.
+                        </p>
+                        <a href="https://github.com/yueMaHello/findYourHome">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Travel Circle Model Application</h3>
+                        <p>
+                            The purpose of this application is to show amount of trips traveling from or to a selected travel zone.
+                            The user can know which zone is busier and how the transportation should be optimized based on amount of trips.
+                            The app can show the travel amount from selected zone to any other zones based on different travel purposes.
+                        </p>
+                        <a href="https://github.com/yueMaHello/TravelCircleModel">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>District Dashboard</h3>
+                        <p>
+                            A dynamic dashboard is designed to let city planner have a clear idea about each district.
+                        </p>
+                        <a href="https://github.com/yueMaHello/District-Dashboard">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <iframe width="300" height="320" src="https://www.youtube.com/embed/_pmvUhQDCgc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Blue Flash</h3>
+                        <p>
+                            This is an Android application. The user can post task, post pictures, bid task and accept task.
+                        </p>
+                        <a href="https://github.com/CMPUT301W18T25/ProjectMaster">View on GitHub</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Programming Language: Java, Python, JavaScript, C, C++, HTML, CSS, Sql, Elastic Search</li>
+            <li>Signal Processing</li>
+            <li>Embedded System</li>
+            <li>Android Development</li>
+            <li>Web Development</li>
+            <li>Electric Circuit</li>
+            <li>Parallel Programming</li>
+            <li>Basic Machine Learning</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact-Final">
+
+        <center><h2>Get in Touch</h2></center>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/ym5@ualberta.ca">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2018 Yue Ma
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/yueMaHello" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yue-ma-2b1aa1a4/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c23192-dce9-4505-a804-fb12ab68de6e" name="Default" comment="" />
+    <list default="true" id="42c23192-dce9-4505-a804-fb12ab68de6e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,10 +19,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="141" lean-forward="true" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+            <state relative-caret-position="280">
+              <caret line="168" column="104" lean-forward="true" selection-start-line="168" selection-start-column="104" selection-end-line="168" selection-end-column="104" />
               <folding>
-                <marker date="1542855825986" expanded="false" signature="13439:13445" ph="©" />
+                <marker date="1542857168784" expanded="false" signature="13434:13440" ph="©" />
               </folding>
             </state>
           </provider>
@@ -113,6 +115,7 @@
       <find>govern</find>
       <find>.project</find>
       <find>multi</find>
+      <find>grou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,7 +253,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1542855825986" expanded="false" signature="13439:13445" ph="©" />
+            <marker date="1542857168784" expanded="false" signature="13434:13440" ph="©" />
           </folding>
         </state>
       </provider>
@@ -399,10 +402,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="141" lean-forward="true" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+        <state relative-caret-position="280">
+          <caret line="168" column="104" lean-forward="true" selection-start-line="168" selection-start-column="104" selection-end-line="168" selection-end-column="104" />
           <folding>
-            <marker date="1542855825986" expanded="false" signature="13439:13445" ph="©" />
+            <marker date="1542857168784" expanded="false" signature="13434:13440" ph="©" />
           </folding>
         </state>
       </provider>

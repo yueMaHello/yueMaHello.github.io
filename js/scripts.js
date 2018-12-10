@@ -112,9 +112,9 @@
                         "nb_sides": 5
                     },
                     "image": {
-                        "src": "http://www.dynamicdigital.us/wp-content/uploads/2013/02/starburst_white_300_drop_2.png",
-                        "width": 100,
-                        "height": 100
+                        "src": "./images/snow.png",
+                        "width": 60,
+                        "height": 60
                     }
                 },
                 "opacity": {
@@ -128,12 +128,12 @@
                     }
                 },
                 "size": {
-                    "value": 5,
+                    "value": 3,
                     "random": true,
                     "anim": {
                         "enable": false,
                         "speed": 20,
-                        "size_min": 0.1,
+                        "size_min": 0.5,
                         "sync": false
                     }
                 },
@@ -146,7 +146,7 @@
                 },
                 "move": {
                     "enable": true,
-                    "speed": 3,
+                    "speed": 4,
                     "direction": "bottom",
                     "random": true,
                     "straight": false,

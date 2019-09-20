@@ -9,14 +9,17 @@
 }
 #particles-js{
     width:100%;
-    height:100%;
+    height:150%;
+    margin-top:-50px;
     display: block;
     z-index:-1;
     background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%,          rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(../images/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+
+
 }
+
 /*#header .iconsSocial a {
   color: #41484c;
   -moz-transition: color 0.35s ease-in-out;

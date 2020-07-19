@@ -53,9 +53,10 @@
   <div class = "container2">
             <div id = "particles-js">
                 <div id = "name">
-                    <h1 style="color:darkgray; font-size:5vw">Yue Ma</h1>
-                    <h2 style="font-size:3vw">Software Developer</h2>
-                </div>
+                    <h1 style="color:rgba(117,117,117,0.65); font-size:5vw; font-family: Arial">Yue Ma</h1>
+                    <h2 style="color:rgba(117,117,117,0.65); font-size:3vw;font-family: Arial">Software Engineer</h2>
+		            <a style="color:rgba(117,117,117,0.65); font-family: Arial;font-size:2vw;text-decoration: underline" href="https://github.com/yueMaHello"> Visit My GitHub </a>
+ </div>
                 <!--<a href="./Resume_YueMa.pdf" target="_blank" class="btn-rounded-white active" data-toggle="buttons">View Resume</a><br>-->
             </div>
   </div>
@@ -80,9 +81,9 @@
                 <div class="col-md-8">
                     <h2 class="heading">About me</h2>
                     <p>
-                        I am pursuing my master degree in Computer Science at Columbia University. <br>
-                        I have finished twenty-month internship in three organizations, and I am actively seeking a 2020 summer internship.<br>
-                        Check out my projects on <a href="https://github.com/yueMaHello">GitHub</a>.
+                        I am pursuing my master degree in Computer Science at Columbia University.
+                        From my past 24 months internship experience, I have gained excellent problem-solving skills and coding skills. I am keen on backend development and full-stack development. I am actively seeking a new-grad SWE position to start my career in the field I love.
+
                     </p>
                 </div>
             </div>
@@ -93,6 +94,15 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <div data-date="May 2020 – Aug 2020">
+                <h3>Google LLC.</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                Designed and developed a Python library for migrating a VM instance, an instance group or a load balancer from a legacy network to a VPC subnet.
+                    The tool can be used by any Google Cloud customers, including Google developers, to migrate their Compute Engine resources to a VPC subnet, so that they can access more advanced Google Cloud features
+
+                </p>
+            </div>
             <div data-date="May 2018 – Dec 2018">
                 <h3>City of Edmonton</h3>
                 <h4>Software Developer</h4>
@@ -143,6 +153,30 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                    <div style="height:20vw;overflow:auto" class="project shadow-large">
+                    <!-- End .project-image -->
+                    <div style="margin-top:30px;" class="project-info2">
+                        <h3>VM Instance Network Migration</h3>
+                        <p>Provide the Google Cloud customers an easy way to migrate their VM instances, instance groups, and load balancers from a legacy network to a VPC network. </p>
+                                        <a href="https://github.com/googleinterns/vm-network-migration">View on GitHub</a>
+
+                    </div>
+                        <hr>
+                        <div class="project-info2">
+                        <h3>NeuroArch</h3>
+                        <p> It is the backend service of the Fruit Fly Brain Observatory, a unique open-source platform for studying the fly brain. I participated the development of this project through writing new Cypher queries and writing interface functions to connect the backend and the frontend.</p>
+                    </div>
+                              <hr>
+                               <div class="project-info2">
+                                   <h3>House Price Analysis and Prediction</h3>
+                        <p>Utilized LASSO linear regression method to analyze Edmonton’s house prices with precision as high as 90% compared to market data
+</p>
+                    </div>
+                    </div>
+
+
+                    <!-- End .project-info -->
+                </div>
                  <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -152,8 +186,10 @@
                     <div class="project-info">
                         <h3>Smart Mirror</h3>
                         <p>
-                            Our Capstone team built a family-use smart mirror using Raspberry Pi. The user could see himself in the mirror while viewing the message displaying around the edges of the mirror. This smart mirror system supports multiple users and each user can choose his or her personalized main page displaying weather, stock, time, calendar and news. The mirror integrates fingerprint recognition, human detection, and voice control features.
+                            Our Capstone team built a family-use smart mirror using Raspberry Pi. The user could see himself in the mirror while viewing the message displaying around the edges of the mirror. This smart mirror system supports multiple users and each user can choose his or her personalized main page displaying weather, stock, time, calendar and news. The mirror integrates fingerprint recognition, human detection, self-capture and voice control features.</p>
+                    <a href="https://github.com/ece492capstone/Capstone">View on GitHub</a>
                     </div>
+
                     <!-- End .project-info -->
                 </div>
 
@@ -301,6 +337,7 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>SQLite</li>
+            <li>Graph Database</li>
             <li>Elastic Search</li>
             <li>Cloud Computing</li>
             <li>Signal Processing</li>
